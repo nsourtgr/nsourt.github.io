@@ -58,27 +58,34 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="https://github.com/nsourtgr/Django-CRM-LocalMySQL">Django CRM (Customer Relationship Management)<br />
+									<h2><a href="https://film-stock-log.netlify.app/">Film Stock Log<br />
 										</a></h2>
 									<p>
 								</header>
-								<a href="https://github.com/nsourtgr/Django-CRM-LocalMySQL" class="image main"><img src="images/CRM Sourtzinos.png" alt="Django CRM"/></a>
+								<a href="https://film-stock-log.netlify.app/" class="image main"><img src="images/Film Stock Log.png" alt="Firm Stock Log"/></a>
 									<p>
-										A modern CRM (Customer Relationship Management) application built with Django, Python, Docker, MySQL, and real-time AJAX search. The project includes:
+										Film Stock Log is a web application for tracking and managing film stock on motion picture productions. 
+										Designed for the 1st Assistant Camera, it enables real-time logging of film consumption per shooting day, 
+										with cloud synchronization for access from any device.(usernames and passwords for login are admin: 6fHKb$@9iop4 and camera: 9#hIsP&amp;#4ebW). Application features:
 									</p>
 
-									<ul style="list-style: none; padding-left: 0;">
-										<li>✅ Django development server running at <a href="http://localhost:8001" target="_blank">http://localhost:8001</a></li>
-										<li>✅ Fully functional Admin panel at <a href="http://localhost:8001/admin" target="_blank">http://localhost:8001/admin</a></li>
-										<li>✅ Local MySQL database (only the schema is required)</li>
-										<li>✅ Automatic database migrations and runserver execution</li>
-										<li>✅ Data export to Excel</li>
-										<li>✅ Real-time live AJAX search across multiple fields</li>
-										<li>✅ Responsive UI using Bootstrap and DataTables (CSS/JS)</li>
-										<li>✅ Secure environment configuration via .env file</li>
+									<ul style="list-style: none; padding-left: 0;font-size: 16px;">
+										<li>✅ Production & Settings: Enter production details (title, director, DOP, company, lab) and define film stocks with custom colors and codes. Configurable waste limit for automatic Short End calculation.</li>
+										<li>✅ Create days of three types: Shooting, Test and Pre-Shoot. Sort ascending or descending. Each day logs all loaded rolls in detail.</li>
+										<li>✅ Roll Logging Per roll: can type (NR-1000ft, NR-400ft, Short End, Re-Can), roll ID, film stock, loaded footage, exposed footage, waste, short end, magazine number, ECN rating (Pull/Push) and notes. Short end is calculated automatically based on the waste limit.</li>
+										<li>✅ Re-Stock: Log incoming film stock per day (1000ft and 400ft cans per stock type) for a complete picture of available inventory.</li>
+										<li>✅ SE Inventory (Short Ends): Automatic creation and tracking of Short Ends. Each SE has a unique code, records the day it was created and whether it has been used on a subsequent day. Filter by status (available/used) and by film stock.</li>
+										<li>✅ Dashboard Production overview: total rolls, loaded/exposed/short end/waste footage, available cans per film stock with a visual consumption bar.</li>
+										<li>✅ Production Report: Detailed day-by-day report with the ability to select specific days. Shows consumption, stock levels and Short Ends per film type. Print-ready in A4 landscape.</li>
+										<li>✅ Restock Report: Summary of all incoming film stock by day and by stock type.</li>
+                                    	<li>✅ Print: All pages are print-optimized for A4 landscape, with an automatic header including production details.</li>
+										<li>✅ Cloud Sync: Automatic synchronization via Supabase. Data is available from any device and browser in real time.</li>
+										<li>✅ User System: Two access levels: Admin (full access, edit, delete) and Camera (view and add rolls only). Login is protected by a lockout after repeated failed attempts.</li>
+										<li>✅ Themes: Three display themes: Dark, Light and Medium.</li>
+										<li>✅ Mobile-friendly: Fully responsive with sidebar navigation for phones and tablets.</li>
 									</ul>
-																		<ul class="actions special">
-										<li><a href="https://github.com/nsourtgr/Django-CRM-LocalMySQL" class="button large">View Project</a></li>
+									<ul class="actions special">
+										<li><a href="https://film-stock-log.netlify.app" class="button large">View Project</a></li>
 								</ul>
 							</article>
 							<!--
@@ -99,8 +106,36 @@
 
 						<!-- Posts -->
 							<section class="posts">
-								<article class="post featured">
-								<header class="major">
+
+							<article>
+								<header>
+									<h2><a href="https://github.com/nsourtgr/Django-CRM-LocalMySQL">Django CRM (Customer Relationship Management)<br />
+										</a></h2>
+									<p>
+								</header>
+								<a href="https://github.com/nsourtgr/Django-CRM-LocalMySQL" class="image main"><img src="images/CRM Sourtzinos.png" alt="Django CRM"/></a>
+									<p>
+										A modern CRM (Customer Relationship Management) application built with Django, Python, Docker, MySQL, and real-time AJAX search. The project includes:
+									</p>
+
+									<ul style="list-style: none; padding-left: 0; font-size: 16px;">
+										<li>✅ Django development server running at <a href="http://localhost:8001" target="_blank">http://localhost:8001</a></li>
+										<li>✅ Fully functional Admin panel at <a href="http://localhost:8001/admin" target="_blank">http://localhost:8001/admin</a></li>
+										<li>✅ Local MySQL database (only the schema is required)</li>
+										<li>✅ Automatic database migrations and runserver execution</li>
+										<li>✅ Data export to Excel</li>
+										<li>✅ Real-time live AJAX search across multiple fields</li>
+										<li>✅ Responsive UI using Bootstrap and DataTables (CSS/JS)</li>
+										<li>✅ Secure environment configuration via .env file</li>
+									</ul>
+																		<ul class="actions special">
+										<li><a href="https://github.com/nsourtgr/Django-CRM-LocalMySQL" class="button large">View Project</a></li>
+								</ul>
+							</article>
+
+
+								<article>
+									<header>
 									<h2><a href="https://public.tableau.com/app/profile/nikos7638/viz/DataProfessionalsSurvey_17074843488870/Dashboard">Data Professionals Survey
 										(Tableau)<br />
 										</a></h2>
